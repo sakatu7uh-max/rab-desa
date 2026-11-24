@@ -1,0 +1,20 @@
+RAB DESA - aplikasi web (HP & laptop)
+
+ISI FOLDER
+  index.html               aplikasi utama (semua kode & template ada di dalamnya)
+  manifest.webmanifest     agar bisa dipasang ke layar utama (Add to Home Screen)
+  sw.js                    agar bisa dipakai offline setelah dibuka sekali
+  icon-192.png, icon-512.png, icon-512-maskable.png
+
+CARA PASANG (GitHub Pages, gratis, HTTPS)
+  1. Buat repository baru di github.com (mis. rab-desa), public.
+  2. Upload SEMUA file di folder ini ke repository.
+  3. Settings > Pages > Source: "Deploy from a branch", branch main, folder / (root) > Save.
+  4. Tunggu 1-2 menit, buka https://NAMAANDA.github.io/rab-desa/
+  5. Di HP: buka link itu di Chrome (Android) atau Safari (iPhone) >
+     menu Bagikan/Titik tiga > "Tambahkan ke Layar Utama".
+
+CATATAN
+  - Tombol "Bagikan" (WhatsApp/Drive) butuh alamat https:// (bukan file lokal).
+  - Data proyek tersimpan di browser perangkat. Gunakan "Cadangkan proyek" secara berkala.
+  - Setelah dibuka sekali dengan internet, aplikasi bisa dipakai tanpa sinyal.
